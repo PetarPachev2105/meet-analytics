@@ -1,0 +1,19 @@
+{
+  "name": "meet-analytics",
+  "version": "1.0.0",
+  "description": "Google Meet attendance and participation analytics via the Meet REST API",
+  "type": "module",
+  "bin": {
+    "meet-analytics": "./meet-analytics.js"
+  },
+  "scripts": {
+    "start": "node meet-analytics.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "googleapis": "^188.0.0"
+  }
+}
